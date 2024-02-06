@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration</title>
+</head>
+
+<body style="font-family: 'Arial', sans-serif; background-color: #f4f4f4; margin: 0; display: flex; flex-direction: column; align-items: center; height: 100vh;">
+
+    <header style="background-color: #3498db; color: #fff; text-align: left; width: 100%; font-size: 24px;">
+        <img src="ru.png" align="left" height="120" width="130">
+        <h1>University of Rajshahi</h1>
+    </header>
+
+    <nav style="display: flex; justify-content: center; background-color: #2c3e50; padding: 10px; width: 100%;">
+        <a href="reg.html" style="color: #fff; margin: 0 15px; text-decoration: none; font-size: 18px;">Registration</a>
+        <a href="website .html" style="color: #fff; margin: 0 15px; text-decoration: none; font-size: 18px;">Login</a>
+        <a href="au.html" style="color: #fff; margin: 0 15px; text-decoration: none; font-size: 18px;">About Us</a>
+    </nav>
+
+    <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 400px; margin-top: 20px;">
+        <h2 style="text-align: center; color: #333; font-size: 20px;">Registration Form</h2>
+        <form action="connect.php" method="post" style="display: flex; flex-direction: column;" >
+            <label for="name" style="margin-bottom: 8px; color: #555; font-size: 16px;">Name:</label>
+            <input type="text" id="name" name="name" required style="padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+
+            <label for="studentID" style="margin-bottom: 8px; color: #555; font-size: 16px;">Student ID:</label>
+            <input type="text" id="studentID" name="studentID" required style="padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+
+            <label for="season" style="margin-bottom: 8px; color: #555; font-size: 16px;">Season:</label>
+            <input type="text" id="season" name="season" required style="padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+
+            <label for="newPassword" style="margin-bottom: 8px; color: #555; font-size: 16px;">New Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required style="padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+
+            <label for="confirmPassword" style="margin-bottom: 8px; color: #555; font-size: 16px;">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required style="padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+
+            <button type="submit" style="background-color: #3498db; color: #fff; padding: 12px; border: none; border-radius: 4px; cursor: pointer; font-size: 18px;">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
